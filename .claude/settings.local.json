@@ -1,7 +1,10 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git config:*)"
+      "Bash(git config:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\n테이블 헤더 및 제목 색상 시스템 추가\n\n- variables.scss에 테이블 헤더 색상 추가\n  * Light: bg #1e293b, text #c4cfe1\n  * Dark: bg #c4cfe1, text #334155\n- tailwind.config.js에 새로운 색상 매핑 추가\n- EventManagementView.vue 테이블 헤더 색상 업데이트\n- 다크모드 제목 텍스트 색상을 #c4cfe1로 통일\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []
