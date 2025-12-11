@@ -18,7 +18,7 @@
           >
             <h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-2">GigStash</h1>
           </div>
-          <p class="text-gray-600 dark:text-gray-400">로그인</p>
+          <p class="align-text-top text-gray-600 dark:text-gray-400">로그인</p>
           <!-- <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
               <path
                 d="M3 3h7v7H3V3zm2 2v3h3V5H5zm7-2h7v7h-7V3zm2 2v3h3V5h-3zM3 13h7v7H3v-7zm2 2v3h3v-3H5zm7-2h7v7h-7v-7zm2 2v3h3v-3h-3z"
@@ -117,10 +117,10 @@
         </form>
 
         <!-- Demo info -->
-        <div class="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
+        <!-- <div class="mt-6 pt-6 border-t border-gray-200 dark:border-gray-700">
           <p class="text-xs text-gray-600 dark:text-gray-400 text-center mb-3">테스트 계정:</p>
           <div class="space-y-3 text-xs bg-gray-50 dark:bg-gray-700/50 rounded-lg p-3">
-            <!-- Admin account -->
+            Admin account
             <div>
               <p class="font-medium text-gray-700 dark:text-gray-300 mb-1">관리자</p>
               <p class="text-gray-600 dark:text-gray-400">
@@ -128,10 +128,10 @@
               </p>
               <p class="text-gray-600 dark:text-gray-400">
                 <span class="font-medium">비밀번호:</span> 1
-                <!-- <span class="font-medium">비밀번호:</span> admin123 -->
+                <span class="font-medium">비밀번호:</span> admin123
               </p>
             </div>
-            <!-- Worker account -->
+            Worker account
             <div class="pt-2 border-t border-gray-300 dark:border-gray-600">
               <p class="font-medium text-gray-700 dark:text-gray-300 mb-1">기사</p>
               <p class="text-gray-600 dark:text-gray-400">
@@ -139,11 +139,11 @@
               </p>
               <p class="text-gray-600 dark:text-gray-400">
                 <span class="font-medium">비밀번호:</span> 1
-                <!-- <span class="font-medium">비밀번호:</span> worker123 -->
+                <span class="font-medium">비밀번호:</span> worker123
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <!-- Footer -->

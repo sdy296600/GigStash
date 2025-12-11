@@ -43,11 +43,11 @@
             </div>
 
             <!-- 행사명 -->
-            <label
+            <!-- <label
               class="text-xs font-medium text-gray-700 dark:text-dark-text-secondary whitespace-nowrap"
             >
               행사명
-            </label>
+            </label> -->
             <div
               class="flex items-center gap-2 w-full px-2.5 py-1.5 text-xs border border-gray-300 bg-white dark:border-dark-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary dark:bg-dark-bg-tertiary dark:text-dark-text-primary"
             >
@@ -219,7 +219,7 @@
                     {{ event.startDate }}
                   </td>
                   <td
-                    class="px-2 py-1 text-left text-gray-700 dark:text-dark-text-secondary group-hover:dark:text-gray-700 whitespace-nowrap"
+                    class="px-2 py-1 text-center text-gray-700 dark:text-dark-text-secondary group-hover:dark:text-gray-700 whitespace-nowrap"
                   >
                     {{ event.performanceTime }}
                   </td>

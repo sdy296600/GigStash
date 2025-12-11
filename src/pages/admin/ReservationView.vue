@@ -138,18 +138,18 @@
 
           <!-- 고객 검색 -->
           <div class="flex items-center gap-1.5 flex-shrink-0 min-w-0 flex-1 sm:flex-none">
-            <label
+            <!-- <label
               class="text-xs font-medium text-gray-700 dark:text-dark-text-secondary whitespace-nowrap"
             >
               고객
-            </label>
+            </label> -->
             <div
               class="flex items-center gap-2 px-2 py-1.5 text-xs border border-gray-300 bg-white dark:border-dark-border rounded-lg focus-within:ring-2 focus-within:ring-primary dark:bg-dark-bg-tertiary dark:text-dark-text-primary"
             >
               <input
                 v-model="searchQuery"
                 type="text"
-                placeholder="이름, ID, 핸드폰"
+                placeholder="검색"
                 class="bg-transparent placeholder-gray-500 dark:placeholder-gray-400 outline-none focus:outline-none dark:bg-dark-bg-tertiary dark:text-dark-text-primary text-xs w-24 sm:w-32"
               />
               <i class="fi fi-br-search text-gray-600 dark:text-gray-300 flex-shrink-0"></i>
