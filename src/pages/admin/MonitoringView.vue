@@ -434,8 +434,8 @@ const allReservations = ref([])
 
 // 날짜 범위 관리 (월간 설정)
 const dateRange = ref({
-  start: new Date(2025, 10, 1), // 2025-11-01
-  end: new Date(2025, 10, 30), // 2025-11-30
+  start: new Date(2025, 11, 1), // 2025-11-01
+  end: new Date(2025, 11, 31), // 2025-11-30
 })
 
 // 달력 표시 여부
@@ -445,7 +445,7 @@ const showCalendar = ref(false)
 const hoveredCalendarDate = ref(null)
 
 // 달력 월 관리
-const calendarViewDate = ref(new Date(2025, 10, 1)) // 2025년 11월
+const calendarViewDate = ref(new Date(2025, 11, 1)) // 2025년 11월
 
 const calendarYear = computed(() => calendarViewDate.value.getFullYear())
 const calendarMonth = computed(() => calendarViewDate.value.getMonth())
